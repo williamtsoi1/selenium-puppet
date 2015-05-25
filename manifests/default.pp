@@ -1,7 +1,6 @@
 node default {
   include java
   include display
-  include chrome-browser
   class { 'selenium::hub': }
   class { 'selenium::node': }
   class { 'firefox':
