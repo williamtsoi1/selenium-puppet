@@ -8,7 +8,7 @@ node default {
   }
   include 'chrome'
   Class['java'] -> Class['selenium::hub']
-  #Class['java'] -> Class['selenium::node']
-  #Class['display'] -> Class['selenium::node']
-  #Class['firefox'] -> Class['selenium::node']
+  Class['java'] -> Class['selenium::node']
+  Class['display'] -> Class['selenium::node']
+  Class['firefox'] -> Class['selenium::node']
 }
