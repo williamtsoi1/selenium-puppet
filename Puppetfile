@@ -7,8 +7,8 @@ mod 'williamtsoi1/selenium',
   :git => 'https://github.com/williamtsoi1/puppet-selenium.git',
   :ref => 'master'
 mod 'p0deje/firefox'
-mod 'williamts1/puppet-google-chrome',
-  :git => 'https://github.com/williamtsoi1/puppet-google-chrome.git',
+mod 'williamts1/puppet-chrome',
+  :git => 'https://github.com/williamtsoi1/puppet-chrome.git',
   :ref => 'master'
 
 mod 'rip/module-data',
